@@ -5,3 +5,7 @@ determines how long devices have access and which devices can be deallocated whe
 Processor Management: The OS controls the order that processes interface with the processor and how long it has
 to perform these tasks. This is called "process scheduling," and keeps tabs on the processes status and allocates/deallocates
 the CPU to perform the given task. All of this uses a program called a "traffic controller" to manage the allocations/deallocations.
+
+Memory Management: The OS manages main/primary memory by keeping tabs on which bytes of memory are utilized by which programs. Every bit
+of the main memory is made up of bytes and words, with each having their own unique address. Like the previous functions, memory is allocated
+and deallocated depending on need and dictates how long processes have access to memory.
