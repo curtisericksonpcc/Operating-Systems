@@ -1,3 +1,7 @@
 Device management- Operating systems manages all devices that are plugged in via their respective drivers. It keeps 
 track of all devices, and assigns a program to each device with the Input/output controller. Also, the OS
 determines how long devices have access and which devices can be deallocated when you're done using them.
+
+Processor Management: The OS controls the order that processes interface with the processor and how long it has
+to perform these tasks. This is called "process scheduling," and keeps tabs on the processes status and allocates/deallocates
+the CPU to perform the given task. All of this uses a program called a "traffic controller" to manage the allocations/deallocations.
